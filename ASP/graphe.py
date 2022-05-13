@@ -17,7 +17,7 @@ def fonct_thread(cmd1, cmd2,e,j,list_cl):
     cmd = cmd1 +"pddl/"+e+"/domain.pddl" + " pddl/"+e+"/"+j + cmd2
     args = shlex.split(cmd)
     try:
-        res = subprocess.run(args, capture_output=True, text=True, timeout=30)
+        res = subprocess.run(args, capture_output=True, text=True, timeout=180)
     except:
         l.append(0)
         l.append(300)
