@@ -1,0 +1,11 @@
+sokoban/Board.class
+sokoban/SokobanMain.class
+sokoban/Box.class
+com/codingame/game/Referee.class
+Main.class
+com/codingame/game/Player.class
+GenFilePddl.class
+sokoban/Cell.class
+sokoban/GenFilePddl.class
+sokoban/Pusher.class
+sokoban/Agent.class
